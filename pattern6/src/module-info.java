@@ -1,0 +1,2 @@
+module pattern6 {
+}

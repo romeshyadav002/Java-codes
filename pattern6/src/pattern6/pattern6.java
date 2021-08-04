@@ -1,0 +1,22 @@
+package pattern6;
+
+import java.util.Scanner;
+
+public class pattern6 {
+	public static void main(String[] args) {
+		int n;
+		Scanner in = new Scanner(System.in);
+		System.out.print("enter the no. of rows: ");
+		n = in.nextInt();
+	
+		
+		for(int i=1;i<=n;i++) {
+			int k=n;
+			for(int j=1;j<=i;j++) {
+				System.out.print(k+" ");
+				k=k-1;
+			}
+			System.out.println();
+		}
+	}
+}
